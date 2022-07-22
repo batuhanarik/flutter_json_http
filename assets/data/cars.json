@@ -1,0 +1,36 @@
+[
+    {
+        "brand_name":"Mercedes",
+        "country":"Germany",
+        "foundation_year":1920,
+        "model":[
+            {
+                "model_name":"Serie A",
+                "price":15000,
+                "gasoline":true
+            },
+            {
+                "model_name":"Serie C",
+                "price":27500,
+                "gasoline":false
+            }
+        ]
+    },
+    {
+        "brand_name":"Honda",
+        "country":"Japan",
+        "foundation_year":1960,
+        "model":[
+            {
+                "model_name":"Civic",
+                "price":16000,
+                "gasoline":true
+            },
+            {
+                "model_name":"City",
+                "price":10400,
+                "gasoline":false
+            }
+        ]
+    }
+]
