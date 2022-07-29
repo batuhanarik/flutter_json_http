@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_json_http/local_json.dart';
+import 'package:flutter_json_http/remote_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,6 +41,13 @@ class MyHomePage extends StatelessWidget {
                   builder:(context)=> const LocalJson()));
                },
               child: const Text('Local Json')),
+              ElevatedButton(
+              style:ElevatedButton.styleFrom(primary:Colors.black54),
+               onPressed:  (){
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder:(context)=>  RemoteApi()));
+               },
+              child: const Text('Remote Api')),
           ],
         )
       )
